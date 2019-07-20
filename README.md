@@ -1,6 +1,6 @@
-# testapp
+# CeachApp
 
-> A Vue.js project
+> Implementing search loading placeholders to provide feedback to users while fetching data from Unsplash API
 
 ## Build Setup
 
