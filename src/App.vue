@@ -1,29 +1,26 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <h1>Chilaka Michael Obinna alias <small> LakaJS </small> is learning VUE.js Framework</h1>
+  <div class="app">
+    <Header />
   </div>
 </template>
+
 
 <script>
 export default {
   name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
+  components: {
+
     }
-  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#header {
+  margin: 0;
+  padding: 0;
+  max-width: 960px;
+  min-height: 100vh;
+  background: #f8f8f8
 }
 
 h1, h2 {
