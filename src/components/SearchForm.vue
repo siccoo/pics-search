@@ -1,6 +1,11 @@
 <template>
-    <div id="search">
-      <input type="text" v-model="query">
+    <div class="container">
+      <form class="mb-5">
+        <div class="input-group">
+          <input type="text" v-model="searchStr" placeholder="Search..." required>
+          <input type="submit" value="">
+        </div>
+      </form>
     </div>
 </template>
 
