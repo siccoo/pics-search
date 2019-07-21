@@ -11,8 +11,9 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
-    "vue": "^2.5.11",
-    "vuetify": "^1.5.16"
+    "bootstrap-vue": "^2.0.0-rc.26",
+    "moment": "^2.24.0",
+    "vue": "^2.5.11"
   },
   "browserslist": [
     "> 1%",
