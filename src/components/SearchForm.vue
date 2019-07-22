@@ -9,3 +9,15 @@
     </div>
 </template>
 
+<script>
+export default {
+  name: SearchForm
+};
+</script>
+
+<style lang="scss">
+
+</style>
+
+
+

@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <Header />
-    <SearchForm v-on:search="search" />
+    
     <SearchPhoto 
       v-if="photos.length > 0"
       v-bind:photos="photos"
@@ -10,18 +10,19 @@
   </div>
 </template>
 
+
 <script>
 import Header from './components/layout/Header';
-import SearchForm from './components/SearchForm';
+// import SearchForm from './components/SearchForm';
 import SearchPhoto from './components/SearchPhoto';
 import axios from 'axios';
-import Bootstrap from 'bootstrap';
+import BootstrapVue from 'bootstrap-vue';
 
 export default {
   name: 'app',
   components: {
     Header,
-    SearchForm,
+    // SearchForm,
     SearchPhoto
   },
   data() {
