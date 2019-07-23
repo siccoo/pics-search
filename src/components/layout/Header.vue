@@ -23,9 +23,9 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 .header {
-    background-color: #c4cdf1;
+    background-color: #0e31bb;
     border-radius: none !important;
 }
 

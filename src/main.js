@@ -22,7 +22,7 @@ Vue.use(BootstrapVue);
 Vue.prototype.$axios;
 
 new Vue({
-  el: '#app',
+  el: '.app',
   render: h => h(App)
 })
 
