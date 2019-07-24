@@ -29,8 +29,7 @@ export default {
       photos: [],
       reformattedSearchStr: "",
       api: {
-        baseUrl: 'https://unsplash.com/search/photos/african',
-        // baseUrl: 'https://api.unsplash.com/photos/african',
+        baseUrl: 'https://api.unsplash.com/photos/?client_id=b6e17d4411cecc6bbf91fe4a65ab56fb233f079cd93525f3548876a3b12237fc',
         type: 'photo',
         first_name: '',
         last_name: '',

@@ -5,7 +5,7 @@
         <div class="col-md-12 justify-center">
           <div class="search">
             <form method="post">
-              <input type="search" v-model="searchStr" placeholder="Search..." required />
+              <input type="search" v-model="searchStr" placeholder="Search for photo" required />
               <input type="submit" value />
             </form>
           </div>
