@@ -51,7 +51,7 @@ export default {
     position: absolute;
     outline: none;
     top: 9px;
-    background: url(./assets/search2.png)no-repeat 0px 0px;
+    /* background: url(./assets/search2.png)no-repeat 0px 0px; */
     width: 25px;
     height: 25px;
     padding: 0;
